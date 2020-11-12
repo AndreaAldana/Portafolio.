@@ -13,34 +13,40 @@
 <body>
     
     <header class="header">
-        <div class="header-img" >
-            <figure>
-                <img src="images/logo.svg" width="60" height="60" alt="">
-            </figure>
+        <div class="container">
+            <div class="header-img">
+                <figure>
+                    <img src="images/logo.svg" width="60" height="60" alt="">
+                </figure>
+            </div>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#briefcase">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#projects">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contact">Trabajemos juntos</a>
+                    </li>
+                </ol>
+            </nav>
         </div>
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a class="link" href="#briefcase">Portafolio</a>
-                </li>
-                <li>
-                    <a class="link" href="#projects">Experiencia</a>
-                </li>
-                <li>
-                    <a class="link" href="#contact">Trabajemos juntos</a>
-                </li>
-            </ol>
-        </nav>
+        
     </header>
     <section class="hero">
+        <div class="container">
         <h1>
            < ¡Hola! Me llamo <strong>Andrea Aldana</strong>, <br /> soy <strong>Jr Developer </strong> <br /> y me
             apasiona la tecnología />
         </h1>
- <!--        <img src="images/mee.jfif" width="300" height="300" alt="img principal"> -->
+      <img class="hero-image" src="images/mee.jfif" width="300" height="300" alt="img principal"> 
+ </div>
     </section>
 
     <section id="briefcase" class="portfolio">
+        <div class="container">
         <h2>Portafolio (Algunos de mis proyectos)</h2>
         <article class="project">
             <div class="project-details">
@@ -104,8 +110,10 @@
                 <img class="project-image" width="500" src="images/Angular.svg" alt="Angular">
             </figure>
         </article>
+    </div>
     </section>
 
+    <div class="container">
     <h2 class="event-list-title">Más sobre mi experiencia</h2>
 
     <section id="projects" class="event-list">
@@ -185,9 +193,11 @@
     </div>
     </div>
     </article>
+</div>
 </section>
 
     <section id="contact" class="contactme">
+        <div class="container">
         <form action="/suscription" class="form-email">
             <h3>Contáctame</h3>
             <input type="text" placeholder="Dejame tu email" id="email">
@@ -199,15 +209,19 @@
                 <a href="https://github.com/AndreaAldana" class="social-link github"></a>
             </div>
         </div>
+    </div>
     </section>
     <footer class="footer">
+        <div class="container">
         <div>
             <p> Nunca pares de aprender </p>
         </div>
         <div>
             <p>Desarrollado por Andrea Aldana <img src="images/coding.png" alt="Dev"> </p>
         </div>
+    </div>
     </footer>
+
 
 </body>
 
